@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53D4C1DF76EFF778F874F7F1 /* Pods_rain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C86402B2510E6418FACD82D /* Pods_rain.framework */; };
 		59F5ED9B1DA3C7E8004FA87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5ED9A1DA3C7E8004FA87C /* AppDelegate.swift */; };
 		59F5ED9D1DA3C7E8004FA87C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5ED9C1DA3C7E8004FA87C /* ViewController.swift */; };
 		59F5EDA01DA3C7E8004FA87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F5ED9E1DA3C7E8004FA87C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A930580984DABD9CB35533 /* Pods-rain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rain.release.xcconfig"; path = "Pods/Target Support Files/Pods-rain/Pods-rain.release.xcconfig"; sourceTree = "<group>"; };
 		59F5ED971DA3C7E8004FA87C /* rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F5ED9A1DA3C7E8004FA87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59F5ED9C1DA3C7E8004FA87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		59F5EDA11DA3C7E8004FA87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59F5EDA41DA3C7E8004FA87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59F5EDA61DA3C7E8004FA87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECF4D0E70BEB73830417039 /* Pods-rain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rain/Pods-rain.debug.xcconfig"; sourceTree = "<group>"; };
+		6C86402B2510E6418FACD82D /* Pods_rain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53D4C1DF76EFF778F874F7F1 /* Pods_rain.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53CAB0044863314A4A73013D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF4D0E70BEB73830417039 /* Pods-rain.debug.xcconfig */,
+				04A930580984DABD9CB35533 /* Pods-rain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		59F5ED8E1DA3C7E8004FA87C = {
 			isa = PBXGroup;
 			children = (
 				59F5ED991DA3C7E8004FA87C /* rain */,
 				59F5ED981DA3C7E8004FA87C /* Products */,
+				53CAB0044863314A4A73013D /* Pods */,
+				7A0B90FB26946D1D94CB886E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = rain;
 			sourceTree = "<group>";
 		};
+		7A0B90FB26946D1D94CB886E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C86402B2510E6418FACD82D /* Pods_rain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59F5EDA91DA3C7E8004FA87C /* Build configuration list for PBXNativeTarget "rain" */;
 			buildPhases = (
+				6A8A5A02BD9AE9898B49D52E /* [CP] Check Pods Manifest.lock */,
 				59F5ED931DA3C7E8004FA87C /* Sources */,
 				59F5ED941DA3C7E8004FA87C /* Frameworks */,
 				59F5ED951DA3C7E8004FA87C /* Resources */,
+				5C44314BA5ABB3AA6ACFC482 /* [CP] Embed Pods Frameworks */,
+				32E0338480E0D91B6808323A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E0338480E0D91B6808323A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rain/Pods-rain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C44314BA5ABB3AA6ACFC482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rain/Pods-rain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8A5A02BD9AE9898B49D52E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		59F5ED931DA3C7E8004FA87C /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		59F5EDAA1DA3C7E8004FA87C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ECF4D0E70BEB73830417039 /* Pods-rain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAC33BRLLD;
@@ -270,6 +346,7 @@
 		};
 		59F5EDAB1DA3C7E8004FA87C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04A930580984DABD9CB35533 /* Pods-rain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAC33BRLLD;
@@ -300,6 +377,7 @@
 				59F5EDAB1DA3C7E8004FA87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
