@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		53D4C1DF76EFF778F874F7F1 /* Pods_rain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C86402B2510E6418FACD82D /* Pods_rain.framework */; };
+		59C4DB721DABCE370052CC62 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4DB711DABCE370052CC62 /* Forecast.swift */; };
+		59C4DB761DABE2DD0052CC62 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4DB751DABE2DD0052CC62 /* WeatherCell.swift */; };
+		59C4DB781DABEFD20052CC62 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C4DB771DABEFD20052CC62 /* Location.swift */; };
 		59F5ED9B1DA3C7E8004FA87C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5ED9A1DA3C7E8004FA87C /* AppDelegate.swift */; };
-		59F5ED9D1DA3C7E8004FA87C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5ED9C1DA3C7E8004FA87C /* ViewController.swift */; };
+		59F5ED9D1DA3C7E8004FA87C /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5ED9C1DA3C7E8004FA87C /* WeatherVC.swift */; };
 		59F5EDA01DA3C7E8004FA87C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F5ED9E1DA3C7E8004FA87C /* Main.storyboard */; };
 		59F5EDA21DA3C7E8004FA87C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F5EDA11DA3C7E8004FA87C /* Assets.xcassets */; };
 		59F5EDA51DA3C7E8004FA87C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F5EDA31DA3C7E8004FA87C /* LaunchScreen.storyboard */; };
+		59F5EDAD1DA54850004FA87C /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5EDAC1DA54850004FA87C /* constants.swift */; };
+		59F5EDAF1DA54C0B004FA87C /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5EDAE1DA54C0B004FA87C /* Variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A930580984DABD9CB35533 /* Pods-rain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rain.release.xcconfig"; path = "Pods/Target Support Files/Pods-rain/Pods-rain.release.xcconfig"; sourceTree = "<group>"; };
+		59C4DB711DABCE370052CC62 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		59C4DB751DABE2DD0052CC62 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		59C4DB771DABEFD20052CC62 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		59F5ED971DA3C7E8004FA87C /* rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F5ED9A1DA3C7E8004FA87C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59F5ED9C1DA3C7E8004FA87C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59F5ED9C1DA3C7E8004FA87C /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		59F5ED9F1DA3C7E8004FA87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59F5EDA11DA3C7E8004FA87C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59F5EDA41DA3C7E8004FA87C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59F5EDA61DA3C7E8004FA87C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F5EDAC1DA54850004FA87C /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		59F5EDAE1DA54C0B004FA87C /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		5ECF4D0E70BEB73830417039 /* Pods-rain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rain/Pods-rain.debug.xcconfig"; sourceTree = "<group>"; };
 		6C86402B2510E6418FACD82D /* Pods_rain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,11 +81,16 @@
 			isa = PBXGroup;
 			children = (
 				59F5ED9A1DA3C7E8004FA87C /* AppDelegate.swift */,
-				59F5ED9C1DA3C7E8004FA87C /* ViewController.swift */,
+				59F5ED9C1DA3C7E8004FA87C /* WeatherVC.swift */,
 				59F5ED9E1DA3C7E8004FA87C /* Main.storyboard */,
 				59F5EDA11DA3C7E8004FA87C /* Assets.xcassets */,
 				59F5EDA31DA3C7E8004FA87C /* LaunchScreen.storyboard */,
 				59F5EDA61DA3C7E8004FA87C /* Info.plist */,
+				59F5EDAC1DA54850004FA87C /* constants.swift */,
+				59F5EDAE1DA54C0B004FA87C /* Variables.swift */,
+				59C4DB711DABCE370052CC62 /* Forecast.swift */,
+				59C4DB751DABE2DD0052CC62 /* WeatherCell.swift */,
+				59C4DB771DABEFD20052CC62 /* Location.swift */,
 			);
 			path = rain;
 			sourceTree = "<group>";
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F5ED9D1DA3C7E8004FA87C /* ViewController.swift in Sources */,
+				59F5ED9D1DA3C7E8004FA87C /* WeatherVC.swift in Sources */,
 				59F5ED9B1DA3C7E8004FA87C /* AppDelegate.swift in Sources */,
+				59C4DB761DABE2DD0052CC62 /* WeatherCell.swift in Sources */,
+				59F5EDAD1DA54850004FA87C /* constants.swift in Sources */,
+				59F5EDAF1DA54C0B004FA87C /* Variables.swift in Sources */,
+				59C4DB721DABCE370052CC62 /* Forecast.swift in Sources */,
+				59C4DB781DABEFD20052CC62 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +277,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -306,6 +327,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -334,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5ECF4D0E70BEB73830417039 /* Pods-rain.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAC33BRLLD;
 				INFOPLIST_FILE = rain/Info.plist;
@@ -348,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04A930580984DABD9CB35533 /* Pods-rain.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAC33BRLLD;
 				INFOPLIST_FILE = rain/Info.plist;
